@@ -1,0 +1,26 @@
+@import '@fontsource-variable/orbitron';
+@import '@fontsource/rajdhani/500.css';
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Orbitron Variable', sans-serif;
+  --font-sub: 'Rajdhani', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #000;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: #000;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+}
+#root {
+  min-height: 100vh;
+}
